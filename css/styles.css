@@ -1,0 +1,201 @@
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+body {
+  font-family: Montserrat;
+}
+
+.meet {
+  font: Montserrat;
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.rotate1 {
+  transform: rotate(20deg);
+}
+
+.title-img {
+  width: 50%;
+  position: absolute;
+  right: 0;
+  top: -40px;
+}
+
+.row {
+  padding: 50px 0 0 0;
+}
+
+/* Navigation bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: Ubuntu;
+}
+
+.nav-item {
+  padding: 0 18px 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+/* Download buttons */
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+/* Styling for Features section */
+#features {
+  padding: 1% 5%;
+  background-color: white;
+  position: relative;
+}
+
+.icons {
+  color: #ef8172;
+  font-size: 4rem;
+  margin-bottom: 2rem;
+}
+
+.icons:hover {
+  color: #ff4c68;
+}
+
+h3 {
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.features-p {
+  color: #8f8f8f;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 0 5%;
+}
+
+/* Testimonial section */
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+h2 {
+  font-family: Montserrat;
+  font-weight: bold;
+  line-height: 1.5;
+  font-size: 3rem;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* Press section */
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.pressimg {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.card {
+  text-align: center;
+}
+
+#pricing {
+  padding: 5% 20% 5%;
+}
+
+.prccol {
+  padding: 3% 2%;
+}
+
+@media (max-width: 1050px) {
+  .rotate1 {
+    position: static;
+    transform: rotate(0);
+    text-align: center;
+  }
+
+  .title-img {
+    position: static;
+    text-align: center;
+  }
+
+  .meet {
+    text-align: center;
+  }
+
+  #title {
+    text-align: center;
+  }
+}
+
+/* Call to action */
+#cta {
+  background-color: #ff4c68;
+}
+
+.call {
+  font-family: Montserrat;
+  font-weight: 900;
+  text-align: center;
+  color: white;
+  font-size: 3rem;
+  padding-top: 5%;
+}
+
+.buttons2 {
+  text-align: center;
+}
+
+/* Footer */
+#footer {
+  background-color: white;
+  text-align: center;
+}
+
+.ico2 {
+  font-size: 3rem;
+  color: #ff4c68;
+}
+
+.ico2:hover {
+  color: #ef8172;
+}
+
+.socbut {
+  padding: 1%;
+}
+
+.copyright {
+  color: grey
+}

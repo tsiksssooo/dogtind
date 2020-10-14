@@ -1,2 +1,1 @@
-# dogtind
-a study project
+TinDog Starting Files
